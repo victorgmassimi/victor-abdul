@@ -1,0 +1,32 @@
+body {
+  display: flex;
+}
+
+header {
+  display: flex;
+  flex: 0.4;
+  flex-direction: column;
+}
+
+a {
+  margin: 1rem;
+  text-decoration: none;
+  color: #000;
+  border-bottom: 1px solid black;
+}
+
+li,
+p {
+  color: #aaa;
+}
+
+header {
+  font-size: 1.5rem;
+  color: #000;
+}
+
+@media (min-width: 500px) {
+  header {
+    text-align: center;
+  }
+}
